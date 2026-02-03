@@ -1,4 +1,4 @@
-Tota revenue
+Total revenue
 SELECT SUM(Price_USD * Sales_volume) AS total_revenue
 FROM BMW_sales;
 
@@ -14,3 +14,23 @@ SELECT fuel_type,
 FROM BMW_sales
 GROUP BY fuel_type
 ORDER BY total_sales DESC;
+
+Average Selling Price
+SELECT AVG(price_USD) AS avg_selling_price
+FROM BMW_sales;
+
+DISTINCT REGIONS
+SELECT DISTINCT Region
+FROM BMW_sales;
+
+
+
+
+
+
+
+
+
+
+
+
